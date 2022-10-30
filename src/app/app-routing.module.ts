@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent, },
   { path: 'home', component: HomeComponent, },
   { path: 'signin', component: SigninComponent },
-  { path: 'signin', component: SignupComponent },
+  { path: 'signup', component: SignupComponent },
   { path: 'bookform', component: BookFormComponent },
   { path: 'booksingle', component: SingleBookComponent },
   { path: '**', component: NotFoundComponent }
